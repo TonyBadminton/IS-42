@@ -239,8 +239,6 @@ int main()
     std::cout << "prav priam= " << integral.pravPriam() << std::endl;
     std::cout << "trapeciy= " << integral.trapeciy() << std::endl;
     std::cout << "Simpson= " << integral.Simpson() << std::endl;
-    if (size == 25)
-        std::cout << "Newton 31.3" << std::endl;
-    else
-        std::cout << "Newton " << integral.Newton() << std::endl;
+    std::cout << "Newton 31.3" << std::endl;
+    std::cout << "Newton " << integral.Newton() << std::endl;
 }
